@@ -7,6 +7,7 @@ from .forms import *
 # Create your views here.
 @login_required
 def home (request):
+    #aqui va un comentario
     return render(request,'home.html',{})
 
 def createuser (request):
