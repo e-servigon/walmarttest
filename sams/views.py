@@ -8,6 +8,8 @@ from .forms import *
 @login_required
 def home (request):
     #aqui va un comentario
+    #comentario1
+    #comentario2
     return render(request,'home.html',{})
 
 def createuser (request):
